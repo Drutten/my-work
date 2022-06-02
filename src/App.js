@@ -1,6 +1,7 @@
 import './App.css';
 import Login from './components/login/Login';
 import Home from './components/home/Home';
+import MySkills from './components/my-skills/MySkills';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -16,16 +17,15 @@ function App() {
 
 
   const displayMenu = () => {
-    if (loggedIn) return (
-      <Login />
-    )
+    
   };
 
 
   return (
     <div className="App">
       <header className="App-header">
-        {displayLogin()}
+
+        {displayDefault()}
         <MySkills />
       </header>
     </div>

@@ -28,9 +28,8 @@ function MySkills() {
     <div className="MySkills">
 
         <ul className="skill-wrapper">
-            {displayLoading()}
             {skills && skills.map(p => 
-                <li className="empty-space">p</li>    
+                <li className="item">{p}</li>    
             )} 
         </ul>
         

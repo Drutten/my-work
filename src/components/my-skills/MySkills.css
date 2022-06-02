@@ -1,6 +1,14 @@
 .skill-wrapper {
     position: relative;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.item {
+    border: 1px solid gray;
+    margin: 0 6px 12px;
+    padding: 8px 12px;
 }
