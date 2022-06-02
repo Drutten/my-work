@@ -1,13 +1,22 @@
 import './App.css';
 import Login from './components/login/Login';
+import Home from './components/home/Home';
 import { useState, useEffect } from 'react';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
-  const [isManager, setIsManager] = useState([]);
+  const [isManager, setIsManager] = useState(false);
 
-  const displayLogin = () => {
-    if (!loggedIn) return (
+  const displayDefault = () => {
+    if (loggedIn) return (
+     <Home /> 
+    )
+    else return (<Login />)
+  };
+
+
+  const displayMenu = () => {
+    if (loggedIn) return (
       <Login />
     )
   };
@@ -17,7 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {displayLogin()}
-        {/* MySkills */}
+        <MySkills />
       </header>
     </div>
   );

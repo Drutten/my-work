@@ -30,7 +30,7 @@ function MySkills() {
         <ul className="skill-wrapper">
             {displayLoading()}
             {skills && skills.map(p => 
-                <li className="empty-space"></li>    
+                <li className="empty-space">p</li>    
             )} 
         </ul>
         
