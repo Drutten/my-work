@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Job Rotation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed to support the coworkers to apply for different opportunities based on their skills in their profile and this also allows manages to create job opportunities.
 
 ## Available Scripts
 
