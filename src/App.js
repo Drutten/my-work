@@ -3,13 +3,13 @@ import Login from './components/login/Login';
 import { useState, useEffect } from 'react';
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState([false]);
-  const [isManager, setIsManager] = useState([false]);
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [isManager, setIsManager] = useState([]);
 
   const displayLogin = () => {
-    if (!loggedIn) {
+    if (!loggedIn) return (
       <Login />
-    }
+    )
   };
 
 
