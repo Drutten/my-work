@@ -2,7 +2,7 @@ import './Menu.css';
 
 function Menu(props) {
   return (
-    <div className="Menu">
+    <div className="Menu" class="sidebar">
         <p>Jobs</p>
         <hr />
         <a href="#">List jobs</a>
