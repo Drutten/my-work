@@ -1,5 +1,7 @@
 .skill-wrapper {
-    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;

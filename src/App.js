@@ -26,7 +26,7 @@ function App() {
       <header className="App-header">
 
         {displayDefault()}
-        <MySkills />
+        
       </header>
     </div>
   );
