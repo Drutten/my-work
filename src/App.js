@@ -7,7 +7,7 @@ function App() {
   const [isManager, setIsManager] = useState([false]);
 
   const displayLogin = () => {
-    if (loggedIn) {
+    if (!loggedIn) {
       <Login />
     }
   };
